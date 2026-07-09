@@ -1,0 +1,50 @@
+{
+  "Name": "MixBridge",
+  "Version": "1.0.0",
+  "Factory Info": {
+    "Vendor": "MixBridge Audio",
+    "URL": "https://mixbridge.audio",
+    "E-Mail": "dev@mixbridge.audio",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "ABCDEF019182FAEB4D5842524D784272",
+      "Category": "Audio Module Class",
+      "Name": "MixBridge",
+      "Vendor": "MixBridge Audio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Fx",
+        "Analyzer",
+        "Network",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "ABCDEF011234ABCD4D5842524D784272",
+      "Category": "Component Controller Class",
+      "Name": "MixBridge",
+      "Vendor": "MixBridge Audio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Fx",
+        "Analyzer",
+        "Network",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}

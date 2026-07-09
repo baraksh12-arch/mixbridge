@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E37A6D6D7EC017826EAD54 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120F9BCF5E07E7644FBB69A9 /* MainView.swift */; };
+		1962A9F25CB6ED65D1397C7A /* MixBridgeNetworkHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C010A48D4BC9B3158018CD23 /* MixBridgeNetworkHelpers.swift */; };
+		61F50BB58D93376A261ED415 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5CAC8519E3C331E24D485B /* AudioEngine.swift */; };
+		75816F863121789D5E462B42 /* JitterBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513F9CA4CCA283AF5D10B274 /* JitterBuffer.swift */; };
+		7A93CF7BCB197C821771BD50 /* MixBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE57616057CE7E43EB407D3 /* MixBridgeApp.swift */; };
+		BDB6CBCED419059D0AE97FD4 /* BonjourBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2893268D9472D29592484855 /* BonjourBrowser.swift */; };
+		DC2C3E4FF4F3DB21017CACDC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A2E5C094036DB49EEB7E1 /* SessionManager.swift */; };
+		DE21FFDF28C4D61AF9EB9D20 /* UDPReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F7CC968721ABDD7E6F62F2 /* UDPReceiver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FDEB94C9CF80419B000B341 /* MixBridge.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MixBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		120F9BCF5E07E7644FBB69A9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		229A2E5C094036DB49EEB7E1 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		2893268D9472D29592484855 /* BonjourBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourBrowser.swift; sourceTree = "<group>"; };
+		4F5CAC8519E3C331E24D485B /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		513F9CA4CCA283AF5D10B274 /* JitterBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JitterBuffer.swift; sourceTree = "<group>"; };
+		C010A48D4BC9B3158018CD23 /* MixBridgeNetworkHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixBridgeNetworkHelpers.swift; sourceTree = "<group>"; };
+		EFE57616057CE7E43EB407D3 /* MixBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixBridgeApp.swift; sourceTree = "<group>"; };
+		F3F7CC968721ABDD7E6F62F2 /* UDPReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPReceiver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		226A5A8C032C7B0BC27D6CEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FDEB94C9CF80419B000B341 /* MixBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		289DC6A3694023B40A6BA34E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				4F5CAC8519E3C331E24D485B /* AudioEngine.swift */,
+				513F9CA4CCA283AF5D10B274 /* JitterBuffer.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		5D3C360C06645B7F46226C19 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C010A48D4BC9B3158018CD23 /* MixBridgeNetworkHelpers.swift */,
+				229A2E5C094036DB49EEB7E1 /* SessionManager.swift */,
+				F3F7CC968721ABDD7E6F62F2 /* UDPReceiver.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		83FCAEE295BC7EF5D7D7A266 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				120F9BCF5E07E7644FBB69A9 /* MainView.swift */,
+				EFE57616057CE7E43EB407D3 /* MixBridgeApp.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C1457E1F608BFE6B7ACE5FAF /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				2893268D9472D29592484855 /* BonjourBrowser.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		D41EDF7A984C6FDBEACB4511 = {
+			isa = PBXGroup;
+			children = (
+				D457A0B84481F859809AA888 /* MixBridge */,
+				226A5A8C032C7B0BC27D6CEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D457A0B84481F859809AA888 /* MixBridge */ = {
+			isa = PBXGroup;
+			children = (
+				E896BE3CE370757ED3CC1A05 /* Sources */,
+			);
+			path = MixBridge;
+			sourceTree = "<group>";
+		};
+		E896BE3CE370757ED3CC1A05 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				289DC6A3694023B40A6BA34E /* Audio */,
+				C1457E1F608BFE6B7ACE5FAF /* Discovery */,
+				5D3C360C06645B7F46226C19 /* Network */,
+				83FCAEE295BC7EF5D7D7A266 /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26CBB8BA57688C77478F0D8 /* MixBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BED96AF772C004243A5B4C0 /* Build configuration list for PBXNativeTarget "MixBridge" */;
+			buildPhases = (
+				A0BB7AE89E3A5BA79F85558B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixBridge;
+			packageProductDependencies = (
+			);
+			productName = MixBridge;
+			productReference = 0FDEB94C9CF80419B000B341 /* MixBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43FB320D6FF59FCBAE881A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D26CBB8BA57688C77478F0D8 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB457FB368B8C76DE06AE52A /* Build configuration list for PBXProject "MixBridge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D41EDF7A984C6FDBEACB4511;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 226A5A8C032C7B0BC27D6CEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26CBB8BA57688C77478F0D8 /* MixBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0BB7AE89E3A5BA79F85558B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F50BB58D93376A261ED415 /* AudioEngine.swift in Sources */,
+				BDB6CBCED419059D0AE97FD4 /* BonjourBrowser.swift in Sources */,
+				75816F863121789D5E462B42 /* JitterBuffer.swift in Sources */,
+				02E37A6D6D7EC017826EAD54 /* MainView.swift in Sources */,
+				7A93CF7BCB197C821771BD50 /* MixBridgeApp.swift in Sources */,
+				1962A9F25CB6ED65D1397C7A /* MixBridgeNetworkHelpers.swift in Sources */,
+				DC2C3E4FF4F3DB21017CACDC /* SessionManager.swift in Sources */,
+				DE21FFDF28C4D61AF9EB9D20 /* UDPReceiver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63FA8ED917B77BF0D11B138A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MixBridge/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = audio.mixbridge.iOSApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8963681CCFE32D01055EAD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F47435DE5090377CF9450F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MixBridge/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = audio.mixbridge.iOSApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A09CFC2B110EB4982670F543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BED96AF772C004243A5B4C0 /* Build configuration list for PBXNativeTarget "MixBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FA8ED917B77BF0D11B138A /* Debug */,
+				8F47435DE5090377CF9450F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB457FB368B8C76DE06AE52A /* Build configuration list for PBXProject "MixBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8963681CCFE32D01055EAD91 /* Debug */,
+				A09CFC2B110EB4982670F543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A43FB320D6FF59FCBAE881A2 /* Project object */;
+}

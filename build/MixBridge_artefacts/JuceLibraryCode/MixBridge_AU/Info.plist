@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+  <dict>
+    <key>CFBundleExecutable</key>
+    <string>MixBridge</string>
+    <key>CFBundleIconFile</key>
+    <string>Icon.icns</string>
+    <key>CFBundleIdentifier</key>
+    <string>audio.mixbridge.plugin</string>
+    <key>CFBundleName</key>
+    <string>MixBridge</string>
+    <key>CFBundleDisplayName</key>
+    <string>MixBridge</string>
+    <key>CFBundlePackageType</key>
+    <string>BNDL</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>NSHumanReadableCopyright</key>
+    <string></string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>AudioComponents</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>MixBridge Audio: MixBridge</string>
+        <key>description</key>
+        <string>MixBridge</string>
+        <key>factoryFunction</key>
+        <string>MixBridgeAUFactory</string>
+        <key>manufacturer</key>
+        <string>MXBR</string>
+        <key>type</key>
+        <string>aufx</string>
+        <key>subtype</key>
+        <string>MxBr</string>
+        <key>version</key>
+        <integer>65536</integer>
+        <key>resourceUsage</key>
+        <dict>
+          <key>network.client</key>
+          <true/>
+          <key>temporary-exception.files.all.read-write</key>
+          <true/>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

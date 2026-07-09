@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+aa3d34b1581952ff4c234ceeac9346cc MixBridge_artefacts/JuceLibraryCode/MixBridge_AU/PkgInfo
+ca6d76314c3538354aee95fd69e31a28 MixBridge_artefacts/JuceLibraryCode/MixBridge_Standalone/PkgInfo
+eb8daec2dd70f54eec8f3396babe5086 MixBridge_artefacts/JuceLibraryCode/MixBridge_VST3/PkgInfo
